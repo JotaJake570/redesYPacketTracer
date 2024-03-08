@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cisco/Casos prácticos.md",
+                "file": "cisco/Cisco IOS CLI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cisco/Casos prácticos.md",
+                "file": "cisco/Cisco IOS CLI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cisco/Casos prácticos.md",
+                "file": "cisco/Cisco IOS CLI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cisco/Casos prácticos.md"
+                "file": "cisco/Cisco IOS CLI.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "5924de418d82929a",
   "lastOpenFiles": [
+    "cisco/Casos prácticos.md",
     "redes/Teoría básica.md",
     "redes/Teoria extendida.md",
     "img/ej1.png",
@@ -155,7 +156,6 @@
     "redes/Soluciones ejercicios.md",
     "redes/Ejercicios explicados.md",
     "redes/Ejercicios.md",
-    "cisco/Casos prácticos.md",
     "cisco/Cisco IOS CLI.md",
     "img/mdix.png",
     "esquema modos y comandos cisco cli.png",
