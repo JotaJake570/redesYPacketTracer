@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "redes/Teoria extendida.md",
+                "file": "redes/Soluciones ejercicios.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "redes/Teoria extendida.md",
+                "file": "redes/Soluciones ejercicios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "redes/Teoria extendida.md",
+                "file": "redes/Soluciones ejercicios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "redes/Teoria extendida.md"
+                "file": "redes/Soluciones ejercicios.md"
               }
             }
           }
@@ -148,14 +148,14 @@
   },
   "active": "5924de418d82929a",
   "lastOpenFiles": [
-    "pdf/redes/Teoria extendida.pdf",
     "redes/Teoría básica.md",
+    "redes/Teoria extendida.md",
+    "pdf/redes/Teoria extendida.pdf",
     "redes/Soluciones ejercicios.md",
     "redes/Ejercicios explicados.md",
     "redes/Ejercicios.md",
     "cisco/Cisco IOS CLI.md",
     "cisco/Casos prácticos.md",
-    "redes/Teoria extendida.md",
     "pdf/redes/Teoría básica.pdf",
     "pdf/redes/Soluciones ejercicios.pdf",
     "pdf/redes/Ejercicios explicados.pdf",
@@ -165,7 +165,6 @@
     "pdf/redes",
     "pdf/Nueva carpeta",
     "pdf/cisco",
-    "pdf",
     "img/caso8.png",
     "img/caso7.png",
     "img/enrutamiento 3.png",

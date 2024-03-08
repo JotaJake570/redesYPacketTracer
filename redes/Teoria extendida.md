@@ -31,8 +31,9 @@ Pongamos que tenemos asignada una IP privada 130.60.0.0 a nuestra red. Esta red 
 
 Como sabemos la clase de la dirección podemos mirar en la tabla cual es su máscara, en este caso es /16
 
-ip:            **10**00 0010 . 0011 1100 . 0000 0000 . 0000 0000
-mascara:  1111 1111 . 1111 1111 . 0000 0000 . 0000 0000  
+| IP      | **10**00 0010 . 0011 1100 . 0000 0000 . 0000 0000 |
+|---------|---------------------------------------------------|
+| Máscara | 1111 1111 . 1111 1111 . 0000 0000 . 0000 0000     |
 
 Tenemos 16 bits de host, esto significa que tenemos una red a la que podríamos conectar, restando las direcciones reservadas para el id de red y la de broadcast:
 2^16 - 2 = 65534 hosts
@@ -42,22 +43,26 @@ Pero es posible que, por ejemplo por temas de seguridad, queramos dividir nuestr
 
 Si aumentamos un bit la máscara de red dividiremos nuestra red en dos subredes, siguiendo con el ejemplo con la IP 130.60.0.0:
 
-ip:                  **10**00 0010 . 0011 1100 . 0000 0000 . 0000 0000
-mascara:        1111 1111 . 1111 1111 . 0000 0000 . 0000 0000  
-por defecto
-nueva            1111 1111 . 1111 1111 . 1000 0000 . 0000 0000
-mascara:
+| IP                  | **10**00 0010 . 0011 1100 . 0000 0000 . 0000 0000 |
+|---------------------|---------------------------------------------------|
+| Máscara por defecto | 1111 1111 . 1111 1111 . 0000 0000 . 0000 0000     |
+| Nueva máscara       | 1111 1111 . 1111 1111 . 1000 0000 . 0000 0000     |
 
 De esta forma se nos crearían dos subredes, una en la que el nuevo bit es 0 y otra en la que el nuevo bit es 1, ambas con máscara /17, cada una ocupará la mitad de las direcciones que ocupaba la red inicial.
 subred 1:
-Ip:                 **10**00 0010 . 0011 1100 . **0**000 0000 . 0000 0000
-mascara:       1111 1111 . 1111 1111 . **1**000 0000 . 0000 0000
-en decimal: 130.60.0.0/17
 
-subred 1:
-Ip:                 **10**00 0010 . 0011 1100 . **1**000 0000 . 0000 0000
-mascara:       1111 1111 . 1111 1111 . **1**000 0000 . 0000 0000
-en decimal: 130.60.128.0/17
+| IP            | **10**00 0010 . 0011 1100 . **0**000 0000 . 0000 0000 |
+|---------------|-------------------------------------------------------|
+| Máscara       | 1111 1111 . 1111 1111 . **1**000 0000 . 0000 0000     |
+| IP en decimal | 130.60.0.0/17                                         |
+
+subred 2:
+
+| IP            | **10**00 0010 . 0011 1100 . **1**000 0000 . 0000 0000 |
+|---------------|-------------------------------------------------------|
+| Máscara       | 1111 1111 . 1111 1111 . **1**000 0000 . 0000 0000     |
+| IP en decimal | 130.60.128.0/17                                       |
+
 
 Como ves la IP de la primera subred coincide con la de la red que dividimos, pero con la máscara a /17, esto implica que empezará donde empezaba la red de la que partíamos pero solo llegará hasta la mitad, es decir su rango irá de 130.60.0.0 a 130.60.127.255, y la segunda cubrirá la otra mitad, de 130.60.128.0 a 130.60.255.255.
 
@@ -69,16 +74,20 @@ Ahora realizaremos este ejercicio como hacemos siempre pero teniendo en cuenta l
 
 130.60.240.120/17
 
-ip:            1000 0010 . 0011 1100 . 1111 0000 . 0111 1000
-mascara:  1111 1111 . 1111 1111 . 1000 0000 . 0000 0000
+| IP      | 1000 0010 . 0011 1100 . 1111 0000 . 0111 1000 |
+|---------|-----------------------------------------------|
+| Máscara | 1111 1111 . 1111 1111 . 1000 0000 . 0000 0000 |
 
 Sustituimos por 0 los bits en la IP que coinciden con los 0 de la máscara (and) y obtenemos el id de la red:
 1000 0010 . 0011 1100 . 1000 0000 . 0000 0000
 en decimal: 130.60.128.0/17 que como vemos coincide con la segunda subred que creamos. 
 Si no tenemos en cuenta subredes simplemente diríamos que este es el id de la red, aunque realmente es el de la subred. 
 Para obtener el id de la red simplemente tenemos que hacer lo mismo pero utilizando la máscara por defecto para esta clase de IP, en este caso /16:
-ip:            1000 0010 . 0011 1100 . 1111 0000 . 0111 1000
-mascara:  1111 1111 . 1111 1111 . 0000 0000 . 0000 0000
+
+| IP        | 1000 0010 . 0011 1100 . 1111 0000 . 0111 1000 |
+|-----------|-----------------------------------------------|
+| Máscara   | 1111 1111 . 1111 1111 . 0000 0000 . 0000 0000 |
+| Id de red | 1000 0010 . 0011 1100 . 0000 0000 . 0000 0000 |
 
 y nos quedaría el id 130.60.0.0/16, que como vemos coincide con la dirección de la red de la que partíamos. Teniendo en cuenta esto, ahora, los bits de red de una los podemos dividir en bits de red y bits de subred. Los bits de red serían los que coinciden con la máscara de red y los de subred el resto hasta llegar a la máscara de la subred.
 
