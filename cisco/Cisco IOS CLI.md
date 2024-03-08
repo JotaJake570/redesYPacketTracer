@@ -467,7 +467,7 @@ En packet tracer tenemos cables directos (straight through) y cruzados (crossove
 Por ejemplo, para conectar un router a un switch o un switch a un ordenador utilizaremos cable directo ya que son dispositivos de distinto tipo.
 En cambio, si conectamos dispositivos del mismo tipo, como pueden ser dos switches, o un router con un ordenador (ya que ambos operan en capa 3), deberíamos utilizar cable cruzado.
 
-Sin embargo esto no es un problema gracias al protocolo MDIX de cisco, que detecta automáticamente el tipo de cable que estamos utilizando y hace que los dispositivos funcionen adaptándose a el, por lo que en la práctica podemos utilizar cualquier cable para conectar cualquier dispositivo.
+Sin embargo esto no es un problema gracias al protocolo MDIX de cisco, que detecta automáticamente el tipo de cable que estamos utilizando y hace que los dispositivos funcionen adaptándose a él, por lo que en la práctica podemos utilizar cualquier cable para conectar cualquier dispositivo.
 
 Este protocolo viene activado por defecto, para desactivarlo tenemos que entrar al modo interface CONFIG mode de la interfaz en la que lo queramos desactivar y ejecutar el comando **no mdix auto**. Por ejemplo, para hacerlo sobre la interfaz fa0/1 de un switch:
 ```
