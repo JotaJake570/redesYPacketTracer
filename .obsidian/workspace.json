@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cisco/Cisco IOS CLI.md",
+                "file": "redes/Teoría básica.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cisco/Cisco IOS CLI.md",
+                "file": "redes/Teoría básica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cisco/Cisco IOS CLI.md",
+                "file": "redes/Teoría básica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cisco/Cisco IOS CLI.md"
+                "file": "redes/Teoría básica.md"
               }
             }
           }
@@ -148,32 +148,33 @@
   },
   "active": "5924de418d82929a",
   "lastOpenFiles": [
-    "cisco/Casos prácticos.md",
-    "redes/Teoría básica.md",
     "redes/Teoria extendida.md",
     "img/ej1.png",
     "img/bitsSubred.png",
+    "cisco/Casos prácticos.md",
+    "cisco/Cisco IOS CLI.md",
+    "img/caso3.png",
+    "img/caso2.png",
+    "img/caso6.png",
+    "img/ejemploSinTrunk.png",
+    "img/ejemploConTrunk.png",
+    "img/ejemploSinTrunk 3.png",
+    "pdf/Nueva carpeta/Teoría básica.pdf",
+    "pdf/Nueva carpeta/Teoria extendida.pdf",
+    "pdf/Nueva carpeta/Soluciones ejercicios.pdf",
+    "pdf/Nueva carpeta/Ejercicios.pdf",
+    "pdf/Nueva carpeta/Ejercicios explicados.pdf",
+    "pdf/Nueva carpeta",
+    "esquema cisco cli.png",
+    "img/caso2 1.png",
+    "img/ejemplo.md",
+    "redes/Teoría básica.md",
     "redes/Soluciones ejercicios.md",
     "redes/Ejercicios explicados.md",
     "redes/Ejercicios.md",
-    "cisco/Cisco IOS CLI.md",
-    "img/mdix.png",
-    "esquema modos y comandos cisco cli.png",
-    "esquema cisco cli.png",
     "pdf/redes/Teoria extendida.pdf",
     "pdf/redes/Teoría básica.pdf",
     "pdf/redes/Soluciones ejercicios.pdf",
-    "pdf/redes/Ejercicios explicados.pdf",
-    "pdf/redes/Ejercicios.pdf",
-    "pdf/cisco/Casos prácticos.pdf",
-    "pdf/cisco/Cisco IOS CLI.pdf",
-    "pdf/redes",
-    "pdf/Nueva carpeta",
-    "pdf/cisco",
-    "img/caso8.png",
-    "img/caso7.png",
-    "img/enrutamiento 3.png",
-    "img/enrutamiento 2.png",
-    "img/enrutamiento 1.png"
+    "pdf/redes/Ejercicios explicados.pdf"
   ]
 }
