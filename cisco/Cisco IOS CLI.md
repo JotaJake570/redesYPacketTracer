@@ -455,8 +455,29 @@ Desde el global Config mode utilizamos el comando **ip routing**:
 ```
 Switch> enable
 Switch# configure terminal
-Switch(config-)# ip routing
-Switch(config-if)# end
+Switch(config)# ip routing
+Switch(config)# end
 Switch# write
 ```
 Con esta configuración las subredes de las vlans del switch de capa 3 tendrían conectividad entre ellas, sin necesidad de router.
+
+## MDIX y tipos de cable
+En packet tracer tenemos cables directos (straight through) y cruzados (crossover), además de los cables seriales. Los cables directos se utilizan para conectar dispositivos de distinto tipo (generalmente que funcionan en la misma capa) y los cruzados para equipos similares.
+
+Por ejemplo, para conectar un router a un switch o un switch a un ordenador utilizaremos cable directo ya que son dispositivos de distinto tipo.
+En cambio, si conectamos dispositivos del mismo tipo, como pueden ser dos switches, o un router con un ordenador (ya que ambos operan en capa 3), deberíamos utilizar cable cruzado.
+
+Sin embargo esto no es un problema gracias al protocolo MDIX de cisco, que detecta automáticamente el tipo de cable que estamos utilizando y hace que los dispositivos funcionen adaptándose a el, por lo que en la práctica podemos utilizar cualquier cable para conectar cualquier dispositivo.
+
+Este protocolo viene activado por defecto, para desactivarlo tenemos que entrar al modo interface CONFIG mode de la interfaz en la que lo queramos desactivar y ejecutar el comando **no mdix auto**. Por ejemplo, para hacerlo sobre la interfaz fa0/1 de un switch:
+```
+Switch> enable
+Switch# configure terminal
+Switch(config)# int fa0/1
+Switch(config-if)# no mdix auto
+Switch(config)# end
+Switch# write
+```
+![](mdix.png)
+En este ejemplo podemos ver varios ordenadores conectados a un switch. Los ordenadores conectados con cable directo tienen conectividad ya que es el cable correcto para este tipo de conexión. 
+PC3 y PC4 están conectados por cable cruzado, sin embargo PC3 tiene conectividad por que en la interfaz del switch a la que está conectado está activado MDIX (configuración por defecto). En la interfaz del switch a la que está conectado PC4 se ha desactivado MDIX, por lo que este no tiene conectividad
