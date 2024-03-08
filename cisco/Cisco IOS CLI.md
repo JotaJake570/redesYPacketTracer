@@ -478,6 +478,6 @@ Switch(config-if)# no mdix auto
 Switch(config)# end
 Switch# write
 ```
-![](img/mdix.png)
+![](../img/mdix.png)
 En este ejemplo podemos ver varios ordenadores conectados a un switch. Los ordenadores conectados con cable directo tienen conectividad ya que es el cable correcto para este tipo de conexión. 
 PC3 y PC4 están conectados por cable cruzado, sin embargo PC3 tiene conectividad por que en la interfaz del switch a la que está conectado está activado MDIX (configuración por defecto). En la interfaz del switch a la que está conectado PC4 se ha desactivado MDIX, por lo que este no tiene conectividad
