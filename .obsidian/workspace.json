@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cisco/Cisco IOS CLI.md",
+                "file": "redes/Teoria extendida.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cisco/Cisco IOS CLI.md",
+                "file": "redes/Teoria extendida.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cisco/Cisco IOS CLI.md",
+                "file": "redes/Teoria extendida.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cisco/Cisco IOS CLI.md"
+                "file": "redes/Teoria extendida.md"
               }
             }
           }
@@ -148,15 +148,26 @@
   },
   "active": "5924de418d82929a",
   "lastOpenFiles": [
-    "cisco/Casos prácticos.md",
+    "pdf/redes/Teoria extendida.pdf",
     "redes/Teoría básica.md",
-    "redes/Teoria extendida.md",
-    "redes/Ejercicios.md",
     "redes/Soluciones ejercicios.md",
     "redes/Ejercicios explicados.md",
+    "redes/Ejercicios.md",
+    "cisco/Cisco IOS CLI.md",
+    "cisco/Casos prácticos.md",
+    "redes/Teoria extendida.md",
+    "pdf/redes/Teoría básica.pdf",
+    "pdf/redes/Soluciones ejercicios.pdf",
+    "pdf/redes/Ejercicios explicados.pdf",
+    "pdf/redes/Ejercicios.pdf",
+    "pdf/cisco/Casos prácticos.pdf",
+    "pdf/cisco/Cisco IOS CLI.pdf",
+    "pdf/redes",
+    "pdf/Nueva carpeta",
+    "pdf/cisco",
+    "pdf",
     "img/caso8.png",
     "img/caso7.png",
-    "cisco/Cisco IOS CLI.md",
     "img/enrutamiento 3.png",
     "img/enrutamiento 2.png",
     "img/enrutamiento 1.png",
@@ -164,8 +175,6 @@
     "img/ejemplo sin trunk 3.png",
     "img/ejemplo sin trunk 2.png",
     "img/ejemplo sin trunk 1.png",
-    "img/ejemplo con trunk.png",
-    "img",
-    "Nueva carpeta"
+    "img/ejemplo con trunk.png"
   ]
 }
