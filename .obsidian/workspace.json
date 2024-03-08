@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "redes/Teoria extendida.md",
+                "file": "cisco/Casos prácticos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "redes/Teoria extendida.md",
+                "file": "cisco/Casos prácticos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "redes/Teoria extendida.md",
+                "file": "cisco/Casos prácticos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "redes/Teoria extendida.md"
+                "file": "cisco/Casos prácticos.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   "active": "5924de418d82929a",
   "lastOpenFiles": [
     "redes/Teoría básica.md",
+    "redes/Teoria extendida.md",
     "img/ej1.png",
     "img/bitsSubred.png",
     "redes/Soluciones ejercicios.md",
@@ -159,7 +160,6 @@
     "img/mdix.png",
     "esquema modos y comandos cisco cli.png",
     "esquema cisco cli.png",
-    "redes/Teoria extendida.md",
     "pdf/redes/Teoria extendida.pdf",
     "pdf/redes/Teoría básica.pdf",
     "pdf/redes/Soluciones ejercicios.pdf",
