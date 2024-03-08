@@ -91,5 +91,5 @@ Para obtener el id de la red simplemente tenemos que hacer lo mismo pero utiliza
 
 y nos quedaría el id 130.60.0.0/16, que como vemos coincide con la dirección de la red de la que partíamos. Teniendo en cuenta esto, ahora, los bits de red de una los podemos dividir en bits de red y bits de subred. Los bits de red serían los que coinciden con la máscara de red y los de subred el resto hasta llegar a la máscara de la subred.
 
-![](C:\Users\jotaj\Desktop\redes\bitsSubred.png)
+![](img/bitsSubred.png)
 

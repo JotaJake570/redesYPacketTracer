@@ -259,7 +259,7 @@ Tras esta configuración podríamos acceder al equipo por telnet desde cualquier
 # Configuraciones de los routers
 ## Asignar una IP a una interfaz y levantarla.
 Pongamos que tenemos un router conectado a un switch. Queremos que el router utilice la IP 192.168.0.1/24 para esa interfaz, que servirá como puerta de enlace para los equipos que tenemos conectados al switch.
-![[caso.png]]
+![](img/caso.png)
 Para hacer esto, primero necesitaremos comprobar que interfaz del router estamos usando (podemos mirarlo con la lupa sobre el cable en el packet tracer) y acceder a su interface CONFIGURATION mode. Desde este modo podremos establecer la ip con el comando **ip address**. Además deberemos levantar (encender) la interfaz con el comando no shutdown.
 Utilizando la interfaz gig0/0/0
 ```
@@ -271,7 +271,7 @@ Router(config-if)# no shutdown
 ```
 ## Enrutamiento
 Si queremos conectar dos redes que están conectadas a routers distintos, además de tener que crear una nueva red para la conexión entre los routers tendremos que configurar el enrutamiento en cada router.
-![[enrutamiento 3.png]]
+![[img/enrutamiento 3.png]]
 Esto se debe a que cada router solo conoce las redes que están directamente conectadas a él, por lo tanto, el router 0 no conoce la existencia de la red 192.168.1.0, así que cuando el ordenador 192.168.0.2 intente mandarle un mensaje al 192.168.1.2 no podrá ya que este llegará al router 0 y este no sabrá a donde enviarlo.
 Para solucionar este problema hay que indicarle a cada router la dirección a la que debe enviar los datos que vayan a cada red no adyacente. Hay dos maneras de realizar esto, enrutamiento estático y enrutamiento rip.
 Esto se trata más a fondo en el caso 4 de los casos prácticos.
@@ -343,7 +343,7 @@ Switch# write
 
 De esta forma ya podríamos tener un switch separado en dos, cada vlan se comporta como un switch distinto y evitan de esta forma compartir dirección de broadcast mac entre las distintas subredes conectadas a cada switch, pero tendríamos que tener un cable del router conectado a cada vlan del switch. Además, si queremos tener varios switches conectados, necesitaremos tener diferentes diferentes cables para las interfaces que pasen por esos routers.
 ### Ejemplo
-![[ejemplo sin trunk 3.png]]
+![[img/ejemplo sin trunk 3.png]]
 
 Como vemos en este ejemplo, para tener una cadena de 3 switches, cada uno con una vlan, debemos pasar 3 cables del router al primer switch, uno para cada vlan, del switch 1 al 2 debemos pasar dos cables, uno para la vlan 20 y otro para la 30 y del segundo al tercero otro cable para la vlan 30. Esto evidentemente se complica cuando hay muchas vlans, haciendonos necesitar demasiados cables y demasiados puertos del router, lo cual supone mucho gasto. La solución a esto son los enlaces Trunk.
 ## Enlace Trunk
@@ -432,7 +432,7 @@ Router(config-if)# ip address 192.168.0.1 255.255.255.0
 ```
 Con estas configuraciones listas ya solo necesitamos pasar un cable entre cada switch o router independientemente de las vlan que haya.
 ### Ejemplo
-![[ejemplo con trunk.png]]
+![[img/ejemplo con trunk.png]]
 Haremos el mismo ejemplo que para las vlans sin trunk, ahora solo es necesario pasar conectar un cable entre cada dispositivo
 
 Aunque aquí hemos utilizado un switch para cada vlan para hacerlo más claro no estamos limitados por esta configuración, podemos tener varias vlans en cada switch o incluso vlans repartidas entre varios switches sin ningún problema.
@@ -478,6 +478,6 @@ Switch(config-if)# no mdix auto
 Switch(config)# end
 Switch# write
 ```
-![](mdix.png)
+![](img/mdix.png)
 En este ejemplo podemos ver varios ordenadores conectados a un switch. Los ordenadores conectados con cable directo tienen conectividad ya que es el cable correcto para este tipo de conexión. 
 PC3 y PC4 están conectados por cable cruzado, sin embargo PC3 tiene conectividad por que en la interfaz del switch a la que está conectado está activado MDIX (configuración por defecto). En la interfaz del switch a la que está conectado PC4 se ha desactivado MDIX, por lo que este no tiene conectividad

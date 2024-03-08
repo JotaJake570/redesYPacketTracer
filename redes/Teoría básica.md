@@ -25,7 +25,7 @@ en decimal:
 Como explicábamos la máscara de red nos indica cuantos bits de la dirección pertenecen a la red y cuantos al host, por lo tanto si nos proporcionan esta dirección:
 145.124.136.35/18, sabemos que sus 18 primeros bits indicarán la red y los 14 restantes el host. 
 Si pasamos la IP 145.124.136.35 a binario y colocamos debajo su máscara de red expresada en binario (18 unos seguidos de 14 ceros), podemos distinguir que bits pertenecen a la red (los que coinciden con el 1 en la máscara) y cuales al host (los que coinciden con el 0):
-![](C:\Users\jotaj\Desktop\redes\ej1.png)
+![](img/ej1.png)
 Realmente no es necesario escribir la máscara en binario, nos llega con contar los primeros 18 bits de la dirección, pero colocando la máscara debajo se ve más claro.
 ## ¿Pero qué significan los bits de red y los bits de host?
 Dentro de una misma red, las IPs de todos los equipos conectados compartirán los mismos bits de red, es decir, esa parte de la dirección será igual, pero cada equipo tendrá unos bits de hosts distintos, que lo identifican dentro de la red.
