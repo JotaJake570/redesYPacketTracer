@@ -11,7 +11,7 @@ En esta tabla se muestran los modos con sus sufijos, de esta forma en los ejempl
 |------------------------------|-----------------|------------------------------------|
 | user EXEC mode               | >               | Router>                            |
 | privileged EXEC mode         | #               | Router#                            |
-| global CONFIGURATION mode    | (config) #      | Router(config) #                   |
+| global CONFIGURATION mode    | (config)#       | Router(config)#                    |
 | interface CONFIGURATION mode | (config-if) #   | Router(config-if) #                |
 | line CONFIGURATION mode      | (config-line) # | Router(config-line) #              |
 | vlan CONFIGURATION mode      | (config-vlan) # | Router(config-vlan) #              |
@@ -34,22 +34,22 @@ Desde este modo podremos acceder al resto de modos.
 Debemos mirar el nombre de la interfaz a la que queremos acceder, por ejemplo utilizando la lupa sobre el cable que conecta con la interfaz, por ejemplo, el nombre de la primera interfaz gigabit del router es Gig0/0/0.
 Teniendo este nombre, desde el modo global Configuration mode
 ```
-Switch(config) # int Gig0/0/0
+Switch(config)# int Gig0/0/0
 ```
 #### Pasar el modo de configuración de las líneas de consola
 ```
 ! Configurar linea principal
-Switch(config) line con 0
+Switch(config)#line con 0
 ! Configurar linea auxiliar
-Switch(config) line aux 0
+Switch(config)#line aux 0
 ! Configurar lineas de consola virtuales (para telnet)
-Switch(config) line vty 0 15
+Switch(config)#line vty 0 15
 ```
 #### Pasar al modo de configuración de una vlan en un switch
 Este comando además de acceder al modo de configuración de una vlan la crea si no existe.
 ```
 ! Para acceder a la vlan 10
-Switch(config) vlan 10
+Switch(config)#vlan 10
 ```
 ### Como volver atrás en los modos
 Para volver el modo anterior podemos utilizar el comando **exit**, para volver al modo privileged EXEC mode, siempre que estemos en un modo posterior, podemos utilizar **end**.
@@ -169,19 +169,19 @@ La línea de la consola principal, que es a la que accedemos cuando entramos des
 ```
 Switch> enable
 Switch# configure terminal
-Switch(config) line con 0
+Switch(config)# line con 0
 ! establecemos la contraseña
-Switch(config) password miContraseña
+Switch(config)# password miContraseña
 ! activamos el login para que se pida la contraseña
-Switch(config) login
-Switch(config) exit
+Switch(config)# login
+Switch(config)# exit
 Switch# write
 ```
 Una vez establecida la contraseña y activado el login se puede acceder a la consola, desde cualquier equipo conectado a la toma de consola.
 
 Hay que tener en cuenta que también existe otra línea de consola auxiliar a la que también podemos conectarnos con un cable, y si no se ha establecido una contraseña para esta podríamos acceder desde ahí sin contraseña. Para acceder a esta línea debemos utilizar desde el modo global CONFIGURATION mode el siguiente comando:
 ```
-Switch(config) line con aux
+Switch(config)# line con aux
 ```
 Y luego establecer la contraseña y el login como hicimos para la línea de consola principal
 ### Contraseña para acceder al privileged EXEC mode
@@ -194,7 +194,7 @@ Con secret:
 Switch> enable
 Switch# configure terminal
 Switch# enable secret contraseña
-Switch(config) exit
+Switch(config)#exit
 Switch# write
 ```
 Con password:
@@ -203,7 +203,7 @@ Con password:
 Switch> enable
 Switch# configure terminal
 Switch# enable secret contraseña
-Switch(config) exit
+Switch(config)#exit
 Switch# write
 ```
 
@@ -214,20 +214,20 @@ Se puede utilizar "no" delante de un comando para negarlo. Esto no solo sirve pa
 Switch> enable
 Switch# configure terminal
 Switch# line con 0
-Switch(config-line) no password
-Switch(config-line) no secret
-Switch(config-line) no login
-Switch(config-line) end
+Switch(config-line)# no password
+Switch(config-line)# no secret
+Switch(config-line)# no login
+Switch(config-line)# end
 Switch# write
 ```
 
 ### Desactivar contraseña privileged EXEC mode:
 ```
 Switch> enable
-Switch(config) configure terminal
-Switch(config) no enable password
-Switch(config) no enable secret
-Switch(config) end
+Switch(config)# configure terminal
+Switch(config)# no enable password
+Switch(config)# no enable secret
+Switch(config)# end
 Switch# write
 ```
 
@@ -236,7 +236,7 @@ Para habilitar el acceso a un equipo por telnet seguimos el mismo proceso que pa
 ```
 Switch> enable
 Switch# configure terminal
-Switch(config) line vty 0 15
+Switch(config)# line vty 0 15
 Switch(config-line) password contraseñaParaTelnet
 Switch(config-line) end
 Switch# write
@@ -246,7 +246,7 @@ Si se trata de un switch, será necesario asignar una IP a la VLAN por defecto (
 ```
 Switch> enable
 Switch# configure terminal
-Switch(config) int VLAN 1
+Switch(config)# int VLAN 1
 Switch(config-if) ip address 192.168.0.2 255.255.255.0
 Switch(config-if) no shutdown
 Switch(config-if) end
@@ -300,7 +300,7 @@ Para configurarlo debemos acceder al router RIP configuration mode de cada route
 Switch> enable
 Switch# configure terminal
 Switch(config)# router rip
-Switch(config-router)#network 192.168.0.0
+Switch(config-router)# network 192.168.0.0
 ```
 # VLAN
 Las vlan consisten en dividir los puertos de un switch virtualmente, haciendo que funcione como varios switches distintos.
