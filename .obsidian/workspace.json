@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fee93f2289342ec0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "readme.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,10 +151,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5924de418d82929a",
+  "active": "fee93f2289342ec0",
   "lastOpenFiles": [
-    "cisco/Esquema modos y comandos Cisco Cli.png",
     "readme.md",
+    "cisco/Esquema modos y comandos Cisco Cli.png",
     "redes/readme.md",
     "redes/index.md",
     "index.md",
