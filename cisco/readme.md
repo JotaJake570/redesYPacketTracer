@@ -3,5 +3,4 @@
 ## ![Casos Prácticos](./Casos%20prácticos.md)
 
 # Esquema modos y comandos Cisco CLI
-####![(Ir a la imagen)](./Esquema%20modos%20y%20comandos%20Cisco%20Cli.png)
 ![](Esquema%20modos%20y%20comandos%20Cisco%20Cli.png)
