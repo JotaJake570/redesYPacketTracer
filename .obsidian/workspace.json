@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "redes/Teoría extendida.md",
+                "file": "readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "redes/Teoría extendida.md",
+                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "redes/Teoría extendida.md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "redes/Teoría extendida.md"
+                "file": "readme.md"
               }
             }
           }
@@ -156,6 +156,10 @@
   },
   "active": "5924de418d82929a",
   "lastOpenFiles": [
+    "redes/Teoría extendida.md",
+    "img/download/downButton.png",
+    "img/download",
+    "img/Nueva carpeta",
     "pdf/cisco/Esquema modos y comandos Cisco Cli.png",
     "pdf/redes/Teoría extendida.pdf",
     "redes/Teoría básica.md",
@@ -172,7 +176,6 @@
     "redes/readme.md",
     "cisco/Cisco IOS CLI.md",
     "cisco/Casos prácticos.md",
-    "redes/Teoría extendida.md",
     "cisco/readme.md",
     "cisco/Esquema modos y comandos Cisco Cli.png",
     "redes/index.md",
@@ -183,16 +186,12 @@
     "esquema cisco cli.png",
     "redes/Teoria extendida.md",
     "pdf/redes/Teoria extendida.pdf",
-    "pdf/redes/Soluciones ejercicios.pdf",
-    "pdf/redes/Ejercicios.pdf",
     "img/calculadoraIpResultado.png",
     "img/tab 5.png",
     "img/calcularIp.png",
     "img/ca.png",
     "Como plantear y comprobar ejercicios.md",
     "img/calculadoraIP.png",
-    "img/levantarInterfaz.png",
-    "img/enrutamiento.png",
     "img/ejemplo.md"
   ]
 }

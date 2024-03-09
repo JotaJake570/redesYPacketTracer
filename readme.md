@@ -12,3 +12,7 @@
 ### [Esquema modos y comandos Cisco CLI](./cisco/Esquema%20modos%20y%20comandos%20Cisco%20Cli.png)
 ### [Teoría Cisco CLI](./cisco/Cisco%20IOS%20CLI.md)
 ### [Casos Prácticos](./cisco/Casos%20prácticos.md)
+
+# ¿Cómo descargarlo?
+En la parte superior de la página debemos dar click en el botón verde que pone **<> code**.
+![Click aqúi](https://github.com/JotaJake570/redesYPacketTracer/archive/refs/heads/master.zip
