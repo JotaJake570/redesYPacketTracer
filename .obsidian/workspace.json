@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "redes/readme.md",
+                "file": "readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "redes/readme.md",
+                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "redes/readme.md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "redes/readme.md"
+                "file": "readme.md"
               }
             }
           }
@@ -156,6 +156,7 @@
   },
   "active": "5924de418d82929a",
   "lastOpenFiles": [
+    "redes/readme.md",
     "redes/Ejercicios extra.md",
     "readme.md",
     "redes/Teoría extendida.md",
@@ -173,7 +174,6 @@
     "pdf/redes/Ejercicios explicados.pdf",
     "redes/Como plantear y comprobar ejercicios.md",
     "pdf/redes/Como plantear y comprobar ejercicios.pdf",
-    "redes/readme.md",
     "cisco/Cisco IOS CLI.md",
     "cisco/Casos prácticos.md",
     "cisco/readme.md",
