@@ -1,4 +1,5 @@
 # Índice
 ## ![Redes](./redes)
 
-![asdasd](cisco/Casos%20prácticos.md)
+## ![Redes](./cisco)
+### ![Casos Prácticos](./cisco/Casos%20prácticos)

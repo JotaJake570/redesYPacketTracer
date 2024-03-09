@@ -11,9 +11,11 @@
             "id": "5924de418d82929a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "cisco/Esquema modos y comandos Cisco Cli.png"
+                "file": "readme.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cisco/Esquema modos y comandos Cisco Cli.png",
+                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cisco/Esquema modos y comandos Cisco Cli.png",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cisco/Esquema modos y comandos Cisco Cli.png"
+                "file": "readme.md"
               }
             }
           }
@@ -146,13 +148,13 @@
   },
   "active": "5924de418d82929a",
   "lastOpenFiles": [
+    "cisco/Esquema modos y comandos Cisco Cli.png",
     "readme.md",
     "redes/readme.md",
     "redes/index.md",
     "index.md",
     "Nuevo Documento de texto.txt",
     "cisco.md",
-    "cisco/Esquema modos y comandos Cisco Cli.png",
     "cisco/Casos prácticos.md",
     "cisco/Cisco IOS CLI.md",
     "Esquema modos y comandos Cisco Cli.png",
