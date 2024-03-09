@@ -41,6 +41,7 @@ Por ejemplo, si tenemos una red con máscara /24, cuyos bits de red sean:
 | 1001 0001 . 0111 1100 . 1000 1000 . | 0000 0011        |
 | 1001 0001 . 0111 1100 . 1000 1000 . | ...              |
 | 1001 0001 . 0111 1100 . 1000 1000 . | 1111 1110        |
+
 # Id de red
 Como acabamos de ver dentro de una red las IPs de los equipos comparten bits de red pero sus bits de host son distintos. Dentro de cada red, reservamos la primera posición, es decir, en la que todos los bits de host están a 0 para el Id de red, esta dirección especial se utiliza para identificar al conjunto de la red, no se le asigna a ninguno de los host que tenga conectados.
 ## Calcular el Id de la red teniendo una IP y su máscara
@@ -52,11 +53,13 @@ Primero utilizamos la máscara de red para saber que bits de la IP pertenecen a 
 |---------|----------------------------|---------------------|
 | IP      | 1001 0001 . 0111 1100 . 10 | 00 1000 . 0010 0011 |
 | Máscara | 1111 1111 . 1111 1111 . 11 | 00 0000 . 0000 0000 |
+
 Como habíamos comentado el Id de la red es la que tiene todos los bits de host a 0, entonces simplemente tenemos que sustituir los bits de hosts por ceros en nuestra dirección:
 
 |           | Bits de red (18)           | Bits de host (14) |
 |-----------|----------------------------|-------------------|
 | Id de red | 1001 0001 . 0111 1100 . 10 | 00 0000 . 0000    |
+
 Y este sería el Id de red, podemos convertir a decimal y nos quedaría:
 145.124.128.0
 
