@@ -16,4 +16,4 @@
 # ¿Cómo descargarlo?
 Haz [Click aquí](https://github.com/JotaJake570/redesYPacketTracer/archive/refs/heads/master.zip) para descargar el repositorio en forma de zip.
 
-Tras descomprimir el zip borra todo menos las carpetas pdf (donde se encontarán todos los apuntes en pdf y el esquema) y la carpeta casos packet tracer. Todo el resto de archivos no hacen falta.
+Tras descomprimir el zip borra todo menos las carpetas pdf y casos packet tracer. Todo el resto de archivos no hacen falta.
