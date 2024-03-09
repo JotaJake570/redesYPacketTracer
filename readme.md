@@ -14,6 +14,6 @@
 ### [Casos Prácticos](./cisco/Casos%20prácticos.md)
 
 # ¿Cómo descargarlo?
-En la parte superior de la página debemos dar click en el botón verde que pone **<> code**.
+Haz [Click aquí](https://github.com/JotaJake570/redesYPacketTracer/archive/refs/heads/master.zip) para descargar el repositorio en forma de zip.
 
-[Click aquí](https://github.com/JotaJake570/redesYPacketTracer/archive/refs/heads/master.zip)
+Tras descomprimir el zip borra todo menos las carpetas pdf (donde se encontarán todos los apuntes en pdf y el esquema) y la carpeta casos packet tracer. Todo el resto de archivos no hacen falta.
