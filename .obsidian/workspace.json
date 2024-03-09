@@ -11,11 +11,9 @@
             "id": "5924de418d82929a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "cisco/Cisco IOS CLI.md",
-                "mode": "source",
-                "source": false
+                "file": "cisco/Esquema modos y comandos Cisco Cli.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cisco/Cisco IOS CLI.md",
+                "file": "cisco/Esquema modos y comandos Cisco Cli.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cisco/Cisco IOS CLI.md",
+                "file": "cisco/Esquema modos y comandos Cisco Cli.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cisco/Cisco IOS CLI.md"
+                "file": "cisco/Esquema modos y comandos Cisco Cli.png"
               }
             }
           }
@@ -148,11 +146,16 @@
   },
   "active": "5924de418d82929a",
   "lastOpenFiles": [
+    "redes/index.md",
+    "readme.md",
+    "index.md",
+    "Nuevo Documento de texto.txt",
+    "cisco.md",
     "cisco/Esquema modos y comandos Cisco Cli.png",
-    "Esquema modos y comandos Cisco Cli.png",
-    "esquema cisco cli.png",
     "cisco/Casos prácticos.md",
     "cisco/Cisco IOS CLI.md",
+    "Esquema modos y comandos Cisco Cli.png",
+    "esquema cisco cli.png",
     "redes/Teoria extendida.md",
     "pdf/redes/Teoria extendida.pdf",
     "redes/Teoría básica.md",
@@ -175,9 +178,7 @@
     "img/calculadoraIP.png",
     "img/levantarInterfaz.png",
     "img/enrutamiento.png",
-    "img/ej1.png",
     "pdf/Nueva carpeta/Teoría básica.pdf",
-    "pdf/Nueva carpeta/Teoria extendida.pdf",
     "img/ejemplo.md"
   ]
 }
