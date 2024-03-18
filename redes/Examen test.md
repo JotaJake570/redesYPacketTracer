@@ -1,9 +1,9 @@
 #### **UDP es un protocolo de la capa de Internet que...**
 **Seleccione una:**
-**a. No confirma la transmisión correcta de datagramas.**
-**b. Habilita un proceso que se ejecuta en un host para enviar paquetes a un proceso que se ejecuta en otro host.**
-**c. UDP no es un protocolo de la capa de Internet.**
-**d. A diferencia del protocolo TCP, permite la comunicación confiable entre los procesos que se ejecutan en hosts independientes**
+- **a. No confirma la transmisión correcta de datagramas.**
+- **b. Habilita un proceso que se ejecuta en un host para enviar paquetes a un proceso que se ejecuta en otro host.**
+- **c. UDP no es un protocolo de la capa de Internet.**
+- **d. A diferencia del protocolo TCP, permite la comunicación confiable entre los procesos que se ejecutan en hosts independientes**
 
 ##### Respuesta: La A
 TCP está orientado a conexión, cada vez que se envía un datagrama (mensaje) el que lo recibe confirma que lo ha recibido y en caso de haber algún error lo indica y se envía de nuevo, ambos equipos se mantienen conectados durante todo el rato que se envían mensajes.
@@ -16,10 +16,9 @@ Para casi todas las conexiones tipo internet o la mayoría de servicios funciona
 ![](../img/ejEx.png)
 
 Seleccione una:
-a. 172.16.0.255
-b. 172.16.0.0/16
-c. 172.16.0.0
-
+- a. 172.16.0.255
+- b. 172.16.0.0/16
+- c. 172.16.0.0
 ##### Respuesta: La B
 Lo que nos preguntan es la dirección de red, que es la primera del rango. La opción A ya sabemos que no es porque es 172.16.0.255, entonces los pcs tendrían que tener ips superiores a esa y ya vemos que no.
 
@@ -28,10 +27,10 @@ La b y la c son la misma IP solo que una nos indica la máscara y la otra no. Co
 #### **Entre otras funciones, la capa de transporte de OSI es la encargada de:**
 
 **Seleccione una:**
-**a. La comunicación entre el emisor y el receptor.**
-**b. La transferencia de ficheros.**
-**c. La compresión de los datos.**
-**d. Ninguna de las anteriores.**
+- **a. La comunicación entre el emisor y el receptor.**
+- **b. La transferencia de ficheros.**
+- **c. La compresión de los datos.**
+- **d. Ninguna de las anteriores.**
 
 ##### Respuesta: La A  
 
@@ -40,10 +39,10 @@ La capa de transporte es la que utiliza TCP o UDP para transmitir los mensajes e
 #### **Seleccione la opción que NO ES una característica propia del protocolo IP.**
 **Seleccione una:**
   
-a. Baja sobrecarga.
-b. Independiente de los medios.
-c. Minimo esfuerzo.
-d. Sin conexión.
+- a. Baja sobrecarga.
+- b. Independiente de los medios.
+- c. Minimo esfuerzo.
+- d. Sin conexión.
 
 ##### Respuesta: La D
 En esta me hace dudar lo de baja sobrecarga. Realmente a mi entender no es una característica propia del protocolo IP, más bien es algo que se ha logrado gracias a los switches y demás dispositivos eficientes que se han creado a posteriori, pero no se diseñó pensando en eso.
@@ -57,10 +56,10 @@ Sin embargo, la opción d sí que no hay por donde cogerla ya que IP sirve preci
 
 Seleccione una:
 
-a. 1 CRUZADO - 2 CONSOLA - 3 DIRECTO
-b. 1 CONSOLA - 2 CRUZADO - 3 DIRECTO
-c.  1 CRUZADO - 2 DIRECTO - 3 CONSOLA
-d. 1 CONSOLA - 2 DIRECTO - 3 CRUZADO
+- a. 1 CRUZADO - 2 CONSOLA - 3 DIRECTO
+- b. 1 CONSOLA - 2 CRUZADO - 3 DIRECTO
+- c.  1 CRUZADO - 2 DIRECTO - 3 CONSOLA
+- d. 1 CONSOLA - 2 DIRECTO - 3 CRUZADO
 
 ##### Respuesta: La D
 
@@ -74,10 +73,10 @@ Para conectarnos a la consola utilizaremos cable de consola, entonces, entre el 
 
 
 Seleccione una:
-a. SMTP
-b. IP
-c. UDP
-d. TCP
+- a. SMTP
+- b. IP
+- c. UDP
+- d. TCP
 
 
 ##### Respuesta: La D
@@ -95,10 +94,10 @@ SMTP es un protocolo utilizado para enviar correo electrónico y funciona por TC
 
 Seleccione una o más de una:
 
-a. La primera dirección de host de la red es 10.16.2.1 y la máscara 255.255.254.0
-b. La última dirección de host válida de la red es 10.16.2.254 y la máscara 255.255.254.0.
-c. La dirección de red es 10.16.3.0 y la máscara 255.255.255.254.0
-d. La dirección de broadcast de la red es 10.16.3.255 y la máscara 255.255.254.0.
+- a. La primera dirección de host de la red es 10.16.2.1 y la máscara 255.255.254.0
+- b. La última dirección de host válida de la red es 10.16.2.254 y la máscara 255.255.254.0.
+- c. La dirección de red es 10.16.3.0 y la máscara 255.255.255.254.0
+- d. La dirección de broadcast de la red es 10.16.3.255 y la máscara 255.255.254.0.
 ##### Respuesta: A y D.
 
 Para hacer esto vamos a calcular la dirección de red, el rango de hosts y la dirección de broadcast, así veremos cuales de las opciones coinciden.
@@ -144,33 +143,33 @@ Entonces las opciones válidas son a y d.
 
 #### ¿Qué subred incluirá la dirección  192.168.1.105 como dirección de host utilizable?.
 Seleccione una:
-a. 192.168.1.96 /27
-b. 192.168.1.64 /28
-c. 192.168.1.64 /27
-d. 192.168.1.96 /26 
+- a. 192.168.1.96 /27
+- b. 192.168.1.64 /28
+- c. 192.168.1.64 /27
+- d. 192.168.1.96 /26 
 ##### Respuesta: La a y la d coinciden, será un error? Mejor pregúntale, lo he repasado un par de veces por si hay algo mal pero no.
 Para ver cual es la respuesta tenemos que pasar las IPs a binario y comprobar. Dos de las respuestas son las mismas IPs que las otras dos solo que con diferente máscara, así que tendremos que pasar a binario 3 IPs, esas dos más la del enunciado.
 192.168.1.105: 11000000 . 10101000 . 00000001 . 01101001
 192.168.1.96: 11000000 . 10101000 . 00000001 . 01100000
 192.168.1.64:  11000000 . 10101000 . 00000001 . 01000000
 Teniendo las IPs miramos cual coincide con la máscara, la condición es que los bits de red deben coincidir:
-a) 192.168.1.96/27
+- a) 192.168.1.96/27
 	192.168.1.105: 11000000 . 10101000 . 00000001 . 01101001
 	192.168.1.96:   11000000 . 10101000 . 00000001 . 01100000
 	Mascara /27:    11111111 . 11111111 . 11111111 . 11100000
 	 Como vemos coincide, ya que los bits de red son iguales, esta sería la válida.
- b) 192.168.1.64/28
+- b) 192.168.1.64/28
 	 192.168.1.105: 11000000 . 10101000 . 00000001 . 01101001
 	  192.168.1.64:  11000000 . 10101000 . 00000001 . 01000000
 	  Mascara /28:  11111111 . 11111111 . 11111111 . 11110000
 	  Como vemos no coincide, el penúltimo bit de red de la .105 es 1, mientras que en la .64 es 0
 	 Como vemos coincide, ya que los bits de red son iguales, esta sería la válida.
- b) 192.168.1.64/27
+- c) 192.168.1.64/27
 	 192.168.1.105: 11000000 . 10101000 . 00000001 . 01101001
 	  192.168.1.64:  11000000 . 10101000 . 00000001 . 01000000
 	  Mascara /28:  11111111 . 11111111 . 11111111 . 11100000
 	  Pasa lo mismo que en la anterior, solo que como la máscara es 27 en lugar de 28 es el último bit de red el que cambia en lugar del penúltimo
-d) 192.168.1.96/26
+- d) 192.168.1.96/26
 	192.168.1.105: 11000000 . 10101000 . 00000001 . 01101001
 	192.168.1.96:   11000000 . 10101000 . 00000001 . 01100000
 	Mascara /27:    11111111 . 11111111 . 11111111 . 11000000
@@ -179,10 +178,10 @@ d) 192.168.1.96/26
 
 #### Atendiendo a su relación funcional, ¿en qué tipo de redes es común que una computadora que realiza la función de cliente también cumpla la función de servidor?
 Seleccione una:
-a. GAN.
-b. DE DIFUSIÓN.
-c. ENTRE PARES.
-d. CLIENTE-SERVIDOR.
+- a. GAN.
+- b. DE DIFUSIÓN.
+- c. ENTRE PARES.
+- d. CLIENTE-SERVIDOR.
 ##### Respuesta: Entre pares
 Las redes entre pares (p2p o peer to peer en ingles), significa que los equipos que se conectan cubre la misma función tanto uno como otro. Es el tipo de red utilizado en programas de compartir archivos como torrent, ares, emule... Todos los que la usan lo hacen desde ordenadores con el mismo programa y se pasan datos de igual a igual, no hay diferencia entre el que envía el archivo y lo recibe.
 
@@ -195,10 +194,10 @@ Y las redes cliente-servidor como su nombre indica funcionan de un cliente a un 
 ![Título: Cable de Fibra Óptica LC a LC 5M Multimodo Duplex - UPC/UPC - 50/125um OM2  (LSZH) - Latiguillo Doble Fibra Óptica](file:///C:/Users/jotaj/AppData/Local/Temp/msohtmlclip1/01/clip_image006.gif)
 
 Seleccione una:
-a. Permiten la conectividad Full-Duplex.
-b. Los dos hilos premiten que los datos viajen distancias más largas sin degradarse.
-c. Evitan que la diafonía provoque interferencias en la conexión.
-d. Con ello se consigue duplicar la velocidad a la que viajan los datos.
+- a. Permiten la conectividad Full-Duplex.
+- b. Los dos hilos premiten que los datos viajen distancias más largas sin degradarse.
+- c. Evitan que la diafonía provoque interferencias en la conexión.
+- d. Con ello se consigue duplicar la velocidad a la que viajan los datos.
 ##### Respuesta: La b
 Full duplex significa que el cable puede transmitir información en ambos sentidos a la vez, mientras que half duplex significa que puede hacerlo en ambos sentidos pero no a la vez.
 Con un solo cable de fibra se puede pasar información en ambos sentidos a la vez utilizando diferente longitud de onda para cada sentido, por lo que no es necesario tener dos cables para full duplex.
@@ -231,10 +230,10 @@ Si probamos con 8, (2^8-2 = 254) vemos que aun no llega, con 9 ya es suficiente 
 
 #### De las siguientes topologías de red, señale cual de ellas es la que utiliza un único cable para conectar todos los equipos.
 Seleccione una:
-a. Topología de malla.
-b. Topología de anillo.
-c. Topología de bus.
-d. Topología de estrella.
+- a. Topología de malla.
+- b. Topología de anillo.
+- c. Topología de bus.
+- d. Topología de estrella.
 ##### Respuesta: La c
 La topología de bus es en la que se conectan todos los dispositivos utilizando un único cable, como cuando hacemos un enlace trunk.
   En la topología en anillo, también se utiliza un cable para conectar todos los equipos, solo que estes forman un anillo y cada dispositivos está conectado al anterior y al siguiente, cosa que no nos dice en el enunciado.
@@ -242,10 +241,10 @@ La topología de bus es en la que se conectan todos los dispositivos utilizando 
 La topología en estrella consiste en conectar varios dispositivos a un mismo punto central, como cuando conectamos varios ordenadores a un mismo switch.
 #### Cuántas direcciones de host están disponibles en la red 172.16.124.0 con una máscara de subred de 255.255.252.0?
 Seleccione una:
-a. 1022
-b. 512
-c. 1024
-d. 510
+- a. 1022
+- b. 512
+- c. 1024
+- d. 510
 
 ##### Respuesta: La a
 En realidad nos da igual la IP, solo nos importa la máscara. La pasamos a binario:
