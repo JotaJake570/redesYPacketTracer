@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "b935c95492829aa7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "redes/Examen test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "fee93f2289342ec0",
             "type": "leaf",
             "state": {
@@ -27,7 +39,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "readme.md",
+                "file": "redes/Examen test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "readme.md",
+                "file": "redes/Examen test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "readme.md"
+                "file": "redes/Examen test.md"
               }
             }
           }
@@ -154,30 +167,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5924de418d82929a",
+  "active": "b935c95492829aa7",
   "lastOpenFiles": [
-    "redes/readme.md",
-    "redes/Ejercicios extra.md",
+    "redes/Teoría básica.md",
+    "redes/Soluciones ejercicios extra.md",
+    "redes/Examen test.md",
+    "img/ejEx.png",
     "readme.md",
     "redes/Teoría extendida.md",
+    "redes/readme.md",
+    "redes/Como plantear y comprobar ejercicios.md",
+    "pdf/redes/Examen test.pdf",
+    "cisco/Cisco IOS CLI.md",
+    "cisco/Esquema modos y comandos Cisco Cli.png",
+    "cisco/Casos prácticos.md",
+    "redes/Ejercicios extra.md",
     "img/download/downButton.png",
     "img/download",
     "img/Nueva carpeta",
     "pdf/cisco/Esquema modos y comandos Cisco Cli.png",
     "pdf/redes/Teoría extendida.pdf",
-    "redes/Teoría básica.md",
     "pdf/redes/Teoría básica.pdf",
-    "redes/Soluciones ejercicios extra.md",
     "pdf/redes/Soluciones ejercicios extra.pdf",
     "pdf/redes/Ejercicios extra.pdf",
     "redes/Ejercicios explicados.md",
     "pdf/redes/Ejercicios explicados.pdf",
-    "redes/Como plantear y comprobar ejercicios.md",
     "pdf/redes/Como plantear y comprobar ejercicios.pdf",
-    "cisco/Cisco IOS CLI.md",
-    "cisco/Casos prácticos.md",
     "cisco/readme.md",
-    "cisco/Esquema modos y comandos Cisco Cli.png",
     "redes/index.md",
     "index.md",
     "Nuevo Documento de texto.txt",
@@ -185,13 +201,11 @@
     "Esquema modos y comandos Cisco Cli.png",
     "esquema cisco cli.png",
     "redes/Teoria extendida.md",
-    "pdf/redes/Teoria extendida.pdf",
     "img/calculadoraIpResultado.png",
     "img/tab 5.png",
     "img/calcularIp.png",
     "img/ca.png",
     "Como plantear y comprobar ejercicios.md",
-    "img/calculadoraIP.png",
     "img/ejemplo.md"
   ]
 }
