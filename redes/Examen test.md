@@ -52,7 +52,7 @@ Sin embargo, la opción d sí que no hay por donde cogerla ya que IP sirve preci
   
 #### Atendiendo al siguiente gráfico, el PC está conectado al puerto de consola del Switch. Todas las demás conexiones se realizan a través de enlaces FastEthernet (Ethernet a 1000 Mbps). ¿Qué tipo de cables UTP se pueden utilizar para conectar los dispositivos?
 
-![](file:///C:/Users/jotaj/AppData/Local/Temp/msohtmlclip1/01/clip_image004.gif)
+![](../img/ejEnlace.png)
 
 Seleccione una:
 
@@ -191,7 +191,7 @@ Y las redes cliente-servidor como su nombre indica funcionan de un cliente a un 
 
 #### ¿Por qué se utilizan dos hilos de fibra para una sola conexión de fibra óptica?.
 
-![Título: Cable de Fibra Óptica LC a LC 5M Multimodo Duplex - UPC/UPC - 50/125um OM2  (LSZH) - Latiguillo Doble Fibra Óptica](file:///C:/Users/jotaj/AppData/Local/Temp/msohtmlclip1/01/clip_image006.gif)
+![](../img/ejFib.png)
 
 Seleccione una:
 - a. Permiten la conectividad Full-Duplex.
