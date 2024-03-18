@@ -191,7 +191,7 @@ Y las redes cliente-servidor como su nombre indica funcionan de un cliente a un 
 
 #### ¿Por qué se utilizan dos hilos de fibra para una sola conexión de fibra óptica?.
 
-![](../img/ejFib.png)
+![](../img/EjFib.png)
 
 Seleccione una:
 - a. Permiten la conectividad Full-Duplex.
